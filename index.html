@@ -3,157 +3,351 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tyrrell Laboratory | UAB</title>
+    <title>Daniel J. Tyrrell, PhD | Tyrrell Laboratory</title>
+    <meta name="description" content="Investigating aging-specific disease mechanisms through advanced single-cell technologies at UAB Heersink School of Medicine">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <svg class="sun-icon" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"/>
+        </svg>
+        <svg class="moon-icon" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
+        </svg>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav">
         <div class="container">
-            <div class="nav-brand">Tyrrell Lab</div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <a href="#" class="nav-logo">DJT</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#research">Research</a>
+                <a href="#publications">Publications</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
     </nav>
 
-    <header id="home" class="hero">
+    <!-- Hero Section -->
+    <section id="about" class="hero">
         <div class="container">
-            <h1>Tyrrell Laboratory</h1>
-            <p class="subtitle">Investigating Aging-Specific Disease Mechanisms Through Advanced Single-Cell Technologies</p>
-            <p class="affiliation">Heersink School of Medicine, University of Alabama at Birmingham</p>
-            <div class="badge">🌱 Green Lab Certified</div>
-        </div>
-    </header>
+            <div class="hero-content">
+                <div class="profile-image">
+                    <div class="avatar">DT</div>
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm Daniel <span class="wave">👋</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Principal Investigator | <strong>Tyrrell Laboratory</strong>
+                </p>
+                <p class="hero-location">
+                    📍 Heersink School of Medicine, University of Alabama at Birmingham
+                </p>
+                <p class="hero-description">
+                    I lead a research lab that combines <strong>wet-lab and dry-lab approaches</strong> to investigate
+                    aging-specific disease mechanisms. We use advanced single-cell technologies, spectral flow cytometry,
+                    and computational biology to understand how age impacts chronic inflammatory diseases—focusing on what
+                    makes aging different, not just replicating findings from young animal models.
+                </p>
+                <div class="hero-badges">
+                    <span class="badge">🧪 Wet Lab</span>
+                    <span class="badge">💻 Dry Lab</span>
+                    <span class="badge">🌱 Green Certified</span>
+                    <span class="badge">🔬 NIH Funded</span>
+                </div>
 
+                <!-- Links Section -->
+                <div class="links-section">
+                    <h3 class="links-title">Connect</h3>
+                    <div class="social-links">
+                        <a href="https://sites.uab.edu/tyrrelllab/" target="_blank" class="social-link">
+                            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22C6.486 22 2 17.514 2 12S6.486 2 12 2s10 4.486 10 10-4.486 10-10 10zm1-13h-2v6h2v-6zm0-4h-2v2h2V5z"/></svg>
+                            Lab Website
+                        </a>
+                        <a href="https://scholar.google.com/citations?hl=en&user=dig3BckAAAAJ" target="_blank" class="social-link">
+                            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+                            Google Scholar
+                        </a>
+                        <a href="https://github.com/dantyrr" target="_blank" class="social-link">
+                            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            My GitHub
+                        </a>
+                    </div>
+
+                    <h3 class="links-title">Lab Team</h3>
+                    <div class="team-links">
+                        <a href="https://github.com/mhbsiam/" target="_blank" class="team-link">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            MBSiam
+                        </a>
+                        <a href="https://github.com/mdakkasali/" target="_blank" class="team-link">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            Akkas Ali
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Publications -->
+    <section id="publications" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Featured Research</h2>
+            <p class="section-description">
+                Computational tools and analyses from our lab
+            </p>
+
+            <div class="featured-grid">
+                <!-- Microglia-T Cell Preprint -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-type">Preprint • 2025</div>
+                        <div class="project-badges">
+                            <span class="project-badge">Single-Cell</span>
+                            <span class="project-badge">Neuroinflammation</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">
+                        Age-Dependent Neuroinflammatory Microglia-T Cell Circuits in the Brain
+                    </h3>
+                    <p class="project-description">
+                        First comprehensive single-cell analysis revealing coordinated age-dependent interactions
+                        between microglia and T cells in neuroinflammation, uncovering novel mechanisms of brain aging.
+                    </p>
+                    <div class="project-meta">
+                        <span class="project-authors">Ali MA, Siam MHB, Vardaman D 3rd, et al.</span>
+                        <span class="project-journal">bioRxiv</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://www.biorxiv.org/content/10.64898/2025.12.10.693494v1.full" target="_blank" class="project-link primary">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
+                            Read Paper
+                        </a>
+                        <a href="https://github.com/dantyrr/neuroinflammation-circuits" target="_blank" class="project-link">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            Code & Data
+                        </a>
+                    </div>
+                </article>
+
+                <!-- CAFE Web App -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-type">Bioinformatics • 2025</div>
+                        <div class="project-badges">
+                            <span class="project-badge">Web App</span>
+                            <span class="project-badge">Flow Cytometry</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">
+                        CAFE: Integrated Web App for Spectral Flow Cytometry Analysis
+                    </h3>
+                    <p class="project-description">
+                        User-friendly web application that democratizes high-dimensional spectral flow cytometry analysis,
+                        making advanced immunological analysis accessible without extensive computational expertise.
+                    </p>
+                    <div class="project-meta">
+                        <span class="project-authors">Siam MHB, Ali MA, Vardaman D 3rd, et al.</span>
+                        <span class="project-journal">Bioinformatics 41(6)</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://academic.oup.com/bioinformatics/article/41/6/btaf176/8115576" target="_blank" class="project-link primary">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
+                            Read Paper
+                        </a>
+                        <a href="https://github.com/dantyrr/cafe-app" target="_blank" class="project-link">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            Web App
+                        </a>
+                    </div>
+                </article>
+
+                <!-- J Immunol Pipeline -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-type">J Immunol • 2024</div>
+                        <div class="project-badges">
+                            <span class="project-badge">Pipeline</span>
+                            <span class="project-badge">Flow Cytometry</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">
+                        Spectral Flow Cytometry Analysis Pipeline for Immune Cell Characterization
+                    </h3>
+                    <p class="project-description">
+                        Comprehensive computational pipeline enabling unprecedented characterization of complex immune
+                        cell populations and landscapes in disease states using spectral flow cytometry.
+                    </p>
+                    <div class="project-meta">
+                        <span class="project-authors">Vardaman D 3rd, Ali MA, Siam MHB, et al.</span>
+                        <span class="project-journal">J Immunol 213(11):1713-1724</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://academic.oup.com/jimmunol/article/213/11/1713/7960619" target="_blank" class="project-link primary">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
+                            Read Paper
+                        </a>
+                        <a href="https://github.com/dantyrr/spectral-flow-pipeline" target="_blank" class="project-link">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            Pipeline Code
+                        </a>
+                    </div>
+                </article>
+
+                <!-- K99 eLife Paper -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-type">eLife • 2024</div>
+                        <div class="project-badges">
+                            <span class="project-badge">Meta-Analysis</span>
+                            <span class="project-badge">Equity</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">
+                        Analysis of NIH K99/R00 Awards and Career Progression
+                    </h3>
+                    <p class="project-description">
+                        Comprehensive analysis of NIH Pathway to Independence Awards (2006-2022) revealing how
+                        institutional prestige and gender impact career trajectories and funding success.
+                    </p>
+                    <div class="project-meta">
+                        <span class="project-authors">Woitowich NC, Hengel SR, Solis C, et al.</span>
+                        <span class="project-journal">eLife</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://elifesciences.org/articles/88984" target="_blank" class="project-link primary">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
+                            Read Paper
+                        </a>
+                        <a href="https://github.com/dantyrr/K99-R00-analysis" target="_blank" class="project-link">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            Analysis Code
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="view-all-section">
+                <a href="https://scholar.google.com/citations?hl=en&user=dig3BckAAAAJ" target="_blank" class="link-arrow-large">
+                    View all publications on Google Scholar →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Focus -->
     <section id="research" class="section">
         <div class="container">
-            <h2>Our Research</h2>
-            <p class="lead">We model chronic inflammatory diseases using older mice to understand how age impacts disease pathology—a crucial distinction from traditional studies relying on young animal models.</p>
+            <h2 class="section-title">Research Focus</h2>
+            <p class="section-description">
+                Understanding the intersection of aging and disease through integrative approaches
+            </p>
 
-            <div class="research-areas">
-                <div class="research-card">
-                    <div class="icon">🧠</div>
-                    <h3>Aging & Neurodegeneration</h3>
-                    <p>Investigating age-dependent neuroinflammatory circuits and microglia-T cell interactions in the brain.</p>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icon">🧠</div>
+                    <h3 class="card-title">Aging & Neurodegeneration</h3>
+                    <p class="card-description">
+                        Investigating age-dependent neuroinflammatory circuits and microglia-T cell
+                        interactions in the brain using single-cell approaches.
+                    </p>
                 </div>
-                <div class="research-card">
-                    <div class="icon">🫀</div>
-                    <h3>Atherosclerosis</h3>
-                    <p>Understanding vascular inflammation and age-related cardiovascular disease development.</p>
+
+                <div class="card">
+                    <div class="card-icon">🫀</div>
+                    <h3 class="card-title">Atherosclerosis</h3>
+                    <p class="card-description">
+                        Understanding vascular inflammation and age-related cardiovascular disease
+                        development through advanced imaging and genomics.
+                    </p>
                 </div>
-                <div class="research-card">
-                    <div class="icon">🦠</div>
-                    <h3>Autoimmunity</h3>
-                    <p>Exploring immune dysregulation mechanisms in aging-associated autoimmune conditions.</p>
+
+                <div class="card">
+                    <div class="card-icon">🦠</div>
+                    <h3 class="card-title">Autoimmunity</h3>
+                    <p class="card-description">
+                        Exploring immune dysregulation mechanisms in aging-associated autoimmune
+                        conditions using murine models.
+                    </p>
                 </div>
-                <div class="research-card">
-                    <div class="icon">🔴</div>
-                    <h3>CD8+ T Cell Biology</h3>
-                    <p>Characterizing cytotoxic T cell contributions to chronic inflammatory diseases.</p>
+
+                <div class="card">
+                    <div class="card-icon">🔴</div>
+                    <h3 class="card-title">CD8+ T Cell Biology</h3>
+                    <p class="card-description">
+                        Characterizing cytotoxic T cell contributions to chronic inflammatory
+                        diseases with spectral flow cytometry.
+                    </p>
                 </div>
             </div>
 
-            <div class="methods">
-                <h3>Technologies & Methods</h3>
-                <ul class="tech-list">
-                    <li>Single-cell RNA sequencing</li>
-                    <li>Spectral flow cytometry</li>
-                    <li>Advanced bioinformatics & computational analysis</li>
-                    <li>High-dimensional imaging analysis</li>
-                    <li>Genetic approaches using murine model systems</li>
-                </ul>
+            <!-- Technologies -->
+            <div class="tech-section">
+                <h3 class="tech-title">Technologies & Methods</h3>
+                <div class="tech-tags">
+                    <span class="tech-tag">Single-cell RNA-seq</span>
+                    <span class="tech-tag">Spectral Flow Cytometry</span>
+                    <span class="tech-tag">Bioinformatics</span>
+                    <span class="tech-tag">Computational Biology</span>
+                    <span class="tech-tag">High-dimensional Analysis</span>
+                    <span class="tech-tag">Imaging Analysis</span>
+                    <span class="tech-tag">Murine Models</span>
+                    <span class="tech-tag">Python/R</span>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="publications" class="section alt-bg">
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
         <div class="container">
-            <h2>Recent Publications</h2>
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-description">
+                We're always looking for motivated researchers interested in aging, immunology,
+                and single-cell analysis
+            </p>
 
-            <div class="publication">
-                <h3>High-Dimensional Single-Cell Analysis Reveals Coordinated Age-Dependent Neuroinflammatory Microglia-T cell Circuits in the Brain</h3>
-                <p class="authors">Ali MA, Siam MHB, Vardaman D 3rd, Bolding C, Brazell JN, Whatley AD, Risley CA, Tidwell H, Hossain SN, Samal J, Harms AS, Patil M, Tyrrell DJ</p>
-                <p class="journal"><em>bioRxiv</em> (2025) | doi: <a href="https://doi.org/10.64898/2025.12.10.693494" target="_blank">10.64898/2025.12.10.693494</a></p>
-                <p class="pmid">PMID: 41427400 | PMC: PMC12712942</p>
-                <p class="description">First comprehensive single-cell analysis revealing age-dependent coordination between microglia and T cells in neuroinflammation, providing new insights into brain aging mechanisms.</p>
-            </div>
-
-            <div class="publication">
-                <h3>CAFE: an integrated web app for high-dimensional analysis and visualization in spectral flow cytometry</h3>
-                <p class="authors">Siam MHB, Ali MA, Vardaman D 3rd, Acharyya S, Patil M, Tyrrell DJ</p>
-                <p class="journal"><em>Bioinformatics</em> 41(6) (2025) | doi: <a href="https://doi.org/10.1093/bioinformatics/btaf176" target="_blank">10.1093/bioinformatics/btaf176</a></p>
-                <p class="pmid">PMID: 40244812 | PMC: PMC12133267</p>
-                <p class="description">Novel web application that democratizes high-dimensional spectral flow cytometry analysis, making advanced immunological analysis accessible to researchers without extensive computational expertise.</p>
-            </div>
-
-            <div class="publication">
-                <h3>Development of a Spectral Flow Cytometry Analysis Pipeline for High-dimensional Immune Cell Characterization</h3>
-                <p class="authors">Vardaman D 3rd, Ali MA, Siam MHB, Bolding C, Tidwell H, Stephens HR, Patil M, Tyrrell DJ</p>
-                <p class="journal"><em>Journal of Immunology</em> 213(11):1713-1724 (2024) | doi: <a href="https://doi.org/10.4049/jimmunol.2400370" target="_blank">10.4049/jimmunol.2400370</a></p>
-                <p class="pmid">PMID: 39451039 | PMC: PMC11573633</p>
-                <p class="description">Comprehensive computational pipeline for analyzing complex immune cell populations, enabling unprecedented characterization of immune landscapes in disease states.</p>
-            </div>
-
-            <div class="view-all">
-                <a href="https://www.ncbi.nlm.nih.gov/myncbi/daniel.tyrrell.1/bibliography/public/" target="_blank" class="btn">View All Publications →</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="team" class="section">
-        <div class="container">
-            <h2>Join Our Team</h2>
-            <p class="lead">We're always looking for motivated researchers interested in aging, immunology, and single-cell analysis.</p>
-            <p>Our dynamic and collaborative team welcomes inquiries from prospective members at all levels—from undergraduate researchers to postdoctoral fellows.</p>
-            <div class="team-values">
-                <h3>What We Value</h3>
-                <ul>
-                    <li>🎯 Scientific rigor and curiosity</li>
-                    <li>🤝 Collaborative spirit</li>
-                    <li>🌱 Environmental sustainability</li>
-                    <li>📊 Computational and experimental excellence</li>
-                    <li>🌍 Inclusive and supportive environment</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section alt-bg">
-        <div class="container">
-            <h2>Contact & Links</h2>
-            <div class="contact-info">
+            <div class="contact-grid">
                 <div class="contact-card">
-                    <h3>Principal Investigator</h3>
-                    <p><strong>Daniel J. Tyrrell, PhD</strong></p>
-                    <p>Email: <a href="mailto:dtyrrell@uab.edu">dtyrrell@uab.edu</a></p>
+                    <h3 class="contact-title">Email</h3>
+                    <a href="mailto:dtyrrell@uab.edu" class="contact-link">dtyrrell@uab.edu</a>
                 </div>
+
                 <div class="contact-card">
-                    <h3>Location</h3>
-                    <p>Heersink School of Medicine</p>
-                    <p>University of Alabama at Birmingham</p>
-                    <p>Birmingham, AL</p>
+                    <h3 class="contact-title">Location</h3>
+                    <p class="contact-text">
+                        Heersink School of Medicine<br>
+                        University of Alabama at Birmingham<br>
+                        Birmingham, AL
+                    </p>
                 </div>
+
                 <div class="contact-card">
-                    <h3>Links</h3>
-                    <p><a href="https://sites.uab.edu/tyrrelllab/" target="_blank">Lab Website</a></p>
-                    <p><a href="https://github.com/dantyrr" target="_blank">GitHub</a></p>
-                    <p><a href="https://www.uab.edu/medicine/" target="_blank">UAB Medicine</a></p>
+                    <h3 class="contact-title">Links</h3>
+                    <div class="contact-links">
+                        <a href="https://sites.uab.edu/tyrrelllab/" target="_blank" class="contact-link">Lab Website</a>
+                        <a href="https://github.com/dantyrr" target="_blank" class="contact-link">GitHub</a>
+                        <a href="https://scholar.google.com/citations?hl=en&user=dig3BckAAAAJ" target="_blank" class="contact-link">Google Scholar</a>
+                    </div>
                 </div>
-            </div>
-            <div class="funding">
-                <p><em>Research supported by the National Institutes of Health (NIH)</em></p>
             </div>
         </div>
     </section>
 
-    <footer>
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Tyrrell Laboratory | University of Alabama at Birmingham</p>
-            <p>🌱 Proud Green Lab Certified Institution</p>
+            <p class="footer-text">
+                © 2026 Daniel J. Tyrrell | Heersink School of Medicine, UAB
+            </p>
+            <p class="footer-subtext">
+                Research supported by the National Institutes of Health (NIH)
+            </p>
         </div>
     </footer>
 
