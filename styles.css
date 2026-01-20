@@ -157,8 +157,8 @@ body {
 }
 
 .avatar {
-    width: 80px;
-    height: 80px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--accent), #7c3aed);
     display: flex;
