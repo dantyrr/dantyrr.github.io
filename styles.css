@@ -151,7 +151,9 @@ body {
 }
 
 .profile-image {
-    margin-bottom: 24px;
+    display: inline-block;
+    margin-right: 16px;
+    vertical-align: middle;
 }
 
 .avatar {
@@ -181,6 +183,8 @@ body {
     font-weight: 600;
     margin-bottom: 12px;
     color: var(--text-primary);
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .wave {
